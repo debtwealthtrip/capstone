@@ -89,13 +89,15 @@ The **Photo Discovery and Management App** is designed to provide users with an 
 ### Budget and Resources
 - **Development Team**: 1-2 Swift developers, 1 UI/UX designer
 - **Tools and Resources**: Access to development tools, API keys, testing devices
-- **Estimated Budget**: [Specify estimated budget based on team size and duration]
+- **Estimated Budget**: $8888.88
 
 ## Conclusion
 The Photo Discovery and Management App aims to provide a seamless and engaging experience for users to explore and manage photos. By leveraging modern SwiftUI and Combine technologies, this project will deliver a high-quality, user-centric application with robust functionality and an intuitive interface.
 
 ## Installation
+
 1. Clone the repository: git clone https://github.com/debtwealthtrip/capstone.git
+
 2. Open the project in Xcode: Prj1CApp.xcodeproj
 3. Install dependencies and run the app.
 
