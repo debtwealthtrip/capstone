@@ -63,7 +63,7 @@ struct ContentView: View {
           .padding() // Adds padding around the button
         }
       }
-      .navigationTitle("Stock Photos") // Sets the navigation bar title
+      .navigationTitle("Photo Explorer") // Sets the navigation bar title
     }
     .environmentObject(favoritesManager) // Provides the favorites manager to child views
   }
