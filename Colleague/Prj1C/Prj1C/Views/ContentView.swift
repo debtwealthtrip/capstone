@@ -111,24 +111,26 @@ struct AnimatedNoPhotosView: View {
       
       // Added instructional text below the camera image
       VStack(alignment: .center, spacing: 10) { // Arranges text vertically with spacing
-        Text("To find a gold image, simply type “Gold” in the search bar and press Search.")
+        
+        Text("########################") // Medium font size
+          .font(.body) // Body font size
+          .foregroundColor(.blue) // Color 4
+          .padding()
+        Text("~~~~~~~~~~~~~~~~~~~~~~~~~~~~")
           .font(.subheadline) // Smaller font size
           .foregroundColor(.green) // Color 2
           .padding()
         
-        Text("Motto: “Have Fun, Get It Done!”") // Larger font size
+        Text("> “Have Fun, Get It Done!”<") // Larger font size
           .font(.title2) // Title 2 font size
           .foregroundColor(.purple) // Color 1
           .padding()
         
-        Text("Click on any image to view it in a larger size, along with the title and creator information.") // Medium font size
+        Text("~~~~~~~~~~~~~~~~~~~~~~~~~~~~") // Medium font size
           .font(.body) // Body font size
           .foregroundColor(.orange) // Color 3
-          .padding()
-        
-        Text("You can easily add images to your favorites or remove them whenever you change your mind.") // Medium font size
-          .font(.body) // Body font size
-          .foregroundColor(.blue) // Color 4
+         
+  
       }
       .multilineTextAlignment(.center) // Center-aligns multiline text
       .padding() // Adds padding around the text
